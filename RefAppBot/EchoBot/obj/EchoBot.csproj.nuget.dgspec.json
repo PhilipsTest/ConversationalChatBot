@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Philips 1 2/Documents/Code_Base/ChatBot/ConversationalChatBot/RefAppBot/EchoBot/EchoBot.csproj": {}
+  },
+  "projects": {
+    "/Users/Philips 1 2/Documents/Code_Base/ChatBot/ConversationalChatBot/RefAppBot/EchoBot/EchoBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Philips 1 2/Documents/Code_Base/ChatBot/ConversationalChatBot/RefAppBot/EchoBot/EchoBot.csproj",
+        "projectName": "EchoBot",
+        "projectPath": "/Users/Philips 1 2/Documents/Code_Base/ChatBot/ConversationalChatBot/RefAppBot/EchoBot/EchoBot.csproj",
+        "packagesPath": "/Users/Philips 1 2/.nuget/packages/",
+        "outputPath": "/Users/Philips 1 2/Documents/Code_Base/ChatBot/ConversationalChatBot/RefAppBot/EchoBot/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Philips 1 2/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Bot.Builder.AI.QnA": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.Bot.Builder.Dialogs": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.Bot.Builder.Integration.AspNet.Core": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

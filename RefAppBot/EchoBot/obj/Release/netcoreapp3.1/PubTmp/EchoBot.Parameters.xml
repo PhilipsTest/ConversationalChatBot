@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="wcb-euw1-xlncare-uk-01-np" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^/Users/Philips\ 1\ 2/botbuilder-samples/samples/csharp_dotnetcore/02\.echo-bot/obj/Release/netcoreapp3\.1/PubTmp/Out/$" />
+  </parameter>
+</parameters>
