@@ -52,7 +52,7 @@ namespace Microsoft.BotBuilderSamples.Bots
                     var welcomeCard = MessageFactory.Text(welcomeText);
                     await turnContext.SendActivityAsync(welcomeCard, cancellationToken);
                     //Privacy card..
-                    var privacyText = "**Philips Privacy Notice** \n\n A transcript of this chat is retained with us for quality and training purposes.Chat data collected may be linked to case reference id in cases where the assistant is unable to resolve the query and support is required from Philips Consumer Care.Philips values and respects your privacy.Please read our [privacy notice](https://www.philips.co.in/content/corporate/en_IN/privacy-notice.html/) for more information.";
+                    var privacyText = "**Philips Privacy Notice** A transcript of this chat is retained with us for quality and training purposes.Chat data collected may be linked to case reference id in cases where the assistant is unable to resolve the query and support is required from Philips Consumer Care.Philips values and respects your privacy.Please read our [privacy notice](https://www.philips.co.in/content/corporate/en_IN/privacy-notice.html/) for more information.";
                     var privacyCard = MessageFactory.Text(privacyText);
                     var suggestedActions = new SuggestedActions();
                     privacyCard.SuggestedActions = suggestedActions;
@@ -64,7 +64,7 @@ namespace Microsoft.BotBuilderSamples.Bots
 
                     _ = await turnContext.SendActivitiesAsync(
                              new Activity[] {
-                             new Activity { Type = "delay", Value= 1000 },
+                             new Activity { Type = "delay", Value= 2000 },
                              privacyCard,
                             },
                     cancellationToken);
