@@ -1,5 +1,4 @@
-﻿// Copyright (c) Microsoft Corporation. All rights reserved.
-// Licensed under the MIT License.
+﻿// Copyright (c) Philips. All rights reserved.
 
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
